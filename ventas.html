@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ventas</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<div class="main">
+    
+<div class="header-ventas">
+
+<a href="index.html" class="btn-regresar">
+⬅ Volver
+</a>
+
+</div>
+
+<h1 class="titulo-ventas">
+🛒 Registro de Ventas
+</h1>
+
+<div class="ventas-card">
+
+<form id="ventaForm">
+
+<div class="ventas-grid">
+
+<div class="form-group">
+
+<label>Nombres</label>
+
+<input type="text" id="nombres" placeholder="Ingrese nombres" required>
+
+</div>
+
+<div class="form-group">
+
+<label>Apellidos</label>
+
+<input type="text" id="apellidos" placeholder="Ingrese apellidos" required>
+
+</div>
+
+<div class="form-group">
+
+<label>Número Documento</label>
+
+<input type="text" id="documento" placeholder="Ingrese documento" required>
+
+</div>
+
+<div class="form-group">
+
+<label>Dirección</label>
+
+<input type="text" id="direccion" placeholder="Ingrese dirección" required>
+
+</div>
+
+<div class="form-group">
+
+<label>Plato Colombiano</label>
+
+<select id="plato">
+
+<option value="18000">Bandeja Paisa</option>
+
+<option value="15000">Ajiaco Santafereño</option>
+
+<option value="22000">Lechona Tolimense</option>
+
+<option value="17000">Pollo Asado</option>
+
+<option value="14000">Sancocho</option>
+
+<option value="16000">Tamal Tolimense</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label>Precio Unitario</label>
+
+<input type="text" id="precio" readonly>
+
+</div>
+
+<div class="form-group">
+
+<label>Unidades</label>
+
+<input type="number" id="cantidad" min="1" value="1">
+
+</div>
+
+<div class="form-group">
+
+<label>Subtotal</label>
+
+<input type="text" id="subtotal" readonly>
+
+</div>
+
+<div class="form-group">
+
+<label>IVA 19%</label>
+
+<input type="text" id="iva" readonly>
+
+</div>
+
+<div class="form-group">
+
+<label>Total</label>
+
+<input type="text" id="total" readonly>
+
+</div>
+
+</div>
+
+<button class="btn-ventas">
+
+Guardar Venta
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+
